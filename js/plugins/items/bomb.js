@@ -72,9 +72,5 @@ function useBomb() {
 
   if (equipSlot1 === bombEvent.id && pageup) {
     useBomb();
-    this.wait(180);
-var self = interpreter;
-self._character = character;
-self._character.requestAnimation(3);
-self.setWaitMode("animation");
+    this.wait(60);
     };
