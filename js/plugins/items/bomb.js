@@ -67,11 +67,14 @@ function useBomb() {
     bombEvent.bombId.locate($gamePlayer.x, $gamePlayer.y - 1);
     radius();
     break;
-
 }
 }
 
   if (equipSlot1 === bombEvent.id && pageup) {
     useBomb();
-    this.wait(60);
+    this.wait(180);
+var self = interpreter;
+self._character = character;
+self._character.requestAnimation(3);
+self.setWaitMode("animation");
     };
