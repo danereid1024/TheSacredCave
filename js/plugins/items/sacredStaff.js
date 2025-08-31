@@ -4,6 +4,8 @@ const pageup = Input.isPressed("pageup");
 const pagedown = Input.isPressed("pagedown");
 let maps = [];
 
+
+//Transfers to each cavern
 if ($gameVariables.value(6) === 1) {
   maps.push("Rock Cavern");
 }
