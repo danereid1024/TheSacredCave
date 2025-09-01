@@ -1,9 +1,6 @@
 //=============================================================================
 // Candle Plugin
 // Candle.js
-
-const { use } = require("react");
-
 //=============================================================================
 const darknessOn = $gameSwitches.value(2);
 const lanternInUse = $gameSwitches.value(4);
