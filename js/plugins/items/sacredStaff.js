@@ -39,7 +39,7 @@ $gameMessage.setChoiceCallback((n) => {
 });
 this.setWaitMode("message");
 
-if (equipSlot1 === sacredStaff && pageup) {
+
 switch ($gameVariables.value(7)) {
   case 0:
     $gameMessage.add("You selected 'Rock Cavern'");
@@ -67,4 +67,3 @@ switch ($gameVariables.value(7)) {
     break;  
     }
 this.setWaitMode("message");
-}
