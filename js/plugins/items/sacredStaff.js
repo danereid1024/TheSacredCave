@@ -40,6 +40,7 @@ $gameMessage.setChoiceCallback((n) => {
 this.setWaitMode("message");
 
 
+//Teleporting testing
 switch ($gameVariables.value(7)) {
   case 0:
     $gameMessage.add("You selected 'Rock Cavern'");
