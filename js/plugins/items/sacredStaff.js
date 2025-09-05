@@ -7,6 +7,7 @@ let maps = [];
 
 
 //Transfers to each cavern
+//Still testing transfer feature. might just use events 
 if ($gameVariables.value(6) === 0) {
   maps.push("Rock Cavern");
 }
